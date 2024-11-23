@@ -4,7 +4,7 @@ Este es el front-end de mi proyecto Laravel. A continuación, te muestro algunas
 
 ## Captura 1 - Imagen 10
 
-![Imagen 10](https://github.com/juanki-ia/traduSe-as/raw/main/public/capturas/imagen10.png)
+![Imagen 10](https://github.com/juanki-ia/traduSe-as/raw/main/public/capturas/image10.png)
 
 ## Captura 2 - Imagen 11
 
