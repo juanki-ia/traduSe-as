@@ -1,0 +1,129 @@
+.chat-card {
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Reducir la altura del chat card */
+}
+
+.chat-body {
+    flex: 1;
+    overflow-y: auto; /* Asegurar que el scroll esté dentro del chat body */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-height: 70vh; /* Ajustar la altura del chat body */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    max-width: 75%;
+    position: relative;
+}
+
+.chat-message.left {
+    background-color: #28a745;
+    align-self: flex-start;
+    color: #fff; /* Texto gris oscuro */
+}
+
+.chat-message.right {
+    background-color: #000;
+    align-self: flex-end;
+    margin-left: auto;
+    color: #fff; /* Texto verde oscuro */
+}
+
+.chat-message .message-time {
+    color: #fff; /* Texto gris para la hora */
+}
+
+
+.date-separator {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.chat-form {
+    position: sticky;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Añadir espacio entre el input y el botón */
+}
+
+.input-group textarea {
+    resize: none;
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-camera-active {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+}
+
+.btn-camera-active:hover {
+    background-color: #490200; /* Rojo más oscuro */
+}
+
+.btn-camera-inactive {
+    background-color: #28a745; /* Verde */
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+}
+
+.btn-camera-inactive:hover {
+    background-color: #1f7a37; /* Verde más oscuro */
+}
+
+
+
+@media (max-width: 767.98px) {
+    .input-group {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-group textarea {
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+
+    .input-group button {
+        width: auto; /* Mantener el tamaño del botón */
+    }
+}
+
+.btn-secondary {
+    margin-left: 10px;
+}
+.btn-black {
+    background-color: black !important;
+    border-color: black !important;
+    color: white !important;
+}
+
+
+

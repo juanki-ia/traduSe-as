@@ -1,0 +1,24 @@
+#sentence-container {
+    text-align: center;
+    font-size: 24px;
+    color: #FF5733;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+  
+  #detected-words {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  #send-message {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size:
+  

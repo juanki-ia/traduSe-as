@@ -1,0 +1,53 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.loading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.output_canvas {
+    width: 100%;
+    height: auto;
+    max-height: 70vh; /* Para asegurar que no ocupe más del 70% de la altura de la pantalla */
+}
+
+#sentence-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#detected-words {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

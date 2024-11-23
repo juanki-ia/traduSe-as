@@ -1,0 +1,46 @@
+#sentence-container {
+  text-align: center;
+  font-size: 24px;
+  color: #FF5733;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+#detected-words {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
+}
+
+#send-message, #toggle-camera {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#send-message:hover, #toggle-camera:hover {
+  background-color: #45a049;
+}
+
+#loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  color: #000;
+  z-index: 999;
+}
