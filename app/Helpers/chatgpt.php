@@ -2,7 +2,7 @@
 
 function reviewMessage($text)
 {
-    $apiKey = "";
+    $apiKey = "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";
     $prompt = "Eres un asistente especializado en corregir y mejorar textos generados por un software de traducción de señas. Tu tarea es:
 
     1. Corregir errores gramaticales y ortográficos.
