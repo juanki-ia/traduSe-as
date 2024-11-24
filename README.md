@@ -25,3 +25,6 @@ Este es el front-end de mi proyecto Laravel. A continuación, te muestro algunas
 ## Captura 6 - Imagen 15
 
 ![Imagen 15](https://github.com/juanki-ia/traduSe-as/raw/main/public/capturas/imagen15.png)
+## Captura 7 - chat en web movil
+
+![Imagen 15](https://github.com/juanki-ia/traduSe-as/raw/main/public/capturas/imagen16.png)
