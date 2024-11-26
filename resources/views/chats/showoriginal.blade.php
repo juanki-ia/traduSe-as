@@ -98,7 +98,7 @@
 @section('scripts')
     <script type="module" src="{{ asset('js/script3.js') }}"></script>
     <script>
-        const socket = io('https://servidor-socket.duckdns.org:8080/');
+        const socket = io('http://18.119.98.140:8080/');
         // const socket = io('http://localhost:8080');
 
         document.getElementById('chat-form').addEventListener('submit', function(e) {
