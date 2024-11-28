@@ -22,8 +22,5 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Alfabeto',
         ]);
-        Category::create([
-            'name' => 'Numeros',
-        ]);
     }
 }

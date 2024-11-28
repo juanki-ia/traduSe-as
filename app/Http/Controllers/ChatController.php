@@ -7,6 +7,8 @@ use App\Models\Message;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
+require_once app_path('Helpers/chatgpt.php');
+
 class ChatController extends Controller
 {
     /**
@@ -102,10 +104,17 @@ class ChatController extends Controller
             'message' => 'required|string',
         ]);
 
+        $originalMessage = $request->message;
+
+        // Procesar el mensaje con ChatGPT
+        $correctedMessage = reviewMessage($originalMessage);
+
+
+
         $message = new Message();
         $message->user_id = Auth::id();
         $message->chat_id = $chatId;
-        $message->content = $request->message;
+        $message->content = $correctedMessage;
         $message->save();
 
         // Devolver el mensaje como respuesta JSON
