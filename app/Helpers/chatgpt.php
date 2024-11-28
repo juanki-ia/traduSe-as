@@ -2,7 +2,10 @@
 
 function reviewMessage($text)
 {
-    $apiKey = "ingresarAPIKeyAqui";
+<<<<<<< Updated upstream
+=======
+    $apiKey = "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";
+>>>>>>> Stashed changes
     $prompt = "Eres un asistente especializado en corregir y mejorar textos generados por un software de traducción de señas. Tu tarea es:
 
     1. Corregir errores gramaticales y ortográficos.
